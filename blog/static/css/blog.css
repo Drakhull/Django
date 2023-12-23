@@ -20,7 +20,9 @@ h1, h2, h3, h4 {
 
 .date {
   color: #828282;
+  float: right
 }
+
 
 .save {
   float: right;
@@ -45,6 +47,24 @@ h1, h2, h3, h4 {
   color: #000000;
 }
 
-h1 a, h2 a {
+h1 a, h2 a, .title-detail{
   color: #900000;
 }
+
+.custom-icon {
+  color:#e60045;
+}
+
+.date-and-icon {
+   display: flex;
+   align-items: right;
+}
+
+.new_post_button {
+   font-family: 'Lobster', sans-serif;
+   color:#ff004c;
+   font-size: 13pt;
+}
+
+
+
